@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView_1"
+        android:text="Írd be a neved!"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_nev"
+        android:layout_below="@+id/TextView_1"
+        android:textSize="30dp"
+        android:hint="A neved"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorAccent" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_kuldes"
+        android:layout_below="@+id/EditText_nev"
+        android:layout_centerHorizontal="true"
+        android:text="Küldés"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
